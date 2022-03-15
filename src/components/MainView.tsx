@@ -1,3 +1,9 @@
+import { AdviceCard } from './AdviceCard';
+
 export const MainView = () => {
-  return <div>MainView</div>;
+  return (
+    <section className='w-screen h-screen bg-[#1f2632] flex items-center justify-center'>
+      <AdviceCard />
+    </section>
+  );
 };
